@@ -1,0 +1,152 @@
+[
+  {
+    "id": "1",
+    "name": "Virtue Bakes",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJDtT0DtwbaM6kOVQTGJaevR6f1GBsBf8BaA&s",
+    "cuisine": ["Bakery", "Fast Food", "Pizza"],
+    "delivery_time": "30-40 mins",
+    "location": "Tambaram",
+    "rating": 4.4,
+    "offers": null
+  },
+  {
+    "id": "2",
+    "name": "Nandhana Palace",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBci0EglwtpMwRHLWwy-j2kI0VWeQWhOLhbvU3Oq0evZr7SKZRCDZzMsk0_29TrVntDw0&usqp=CAU",
+    "cuisine": ["Biryani", "Andhra", "North Indian", "Chinese", "South Indian", "Desserts", "Ice Cream", "Beverages"],
+    "delivery_time": "35-45 mins",
+    "location": "Chromepet (~2.5 km)",
+    "rating": 4.3,
+    "offers": null
+  },
+  {
+    "id": "3",
+    "name": "Palmshore",
+    "image": "https://b.zmtcdn.com/data/pictures/chains/3/65413/d31f8bf350d6d7bf0e6b9fe90b48c47a.jpg?fit=around|750:500&crop=750:500;*,*",
+    "cuisine": ["Arabian", "Biryani", "Mandi"],
+    "delivery_time": "30–40 min",
+    "rating": 4.4,
+    "location": "Medavakkam, Chennai",
+    "offers": null
+  },
+  {
+    "id": "4",
+    "name": "Dindigul Thalappakatti",
+    "image": "https://example.com/original/thalappakatti.jpg",
+    "cuisine": ["Biryani", "South Indian"],
+    "delivery_time": "30–40 min",
+    "rating": 4.1,
+    "location": "Medavakkam, Chennai",
+    "offers": "Flat 10% off walk-in"
+  },
+  {
+    "id": "5",
+    "name": "AB's - Absolute Barbecues",
+    "image": "https://example.com/abs.jpg",
+    "cuisine": ["North Indian", "BBQ", "Biryani"],
+    "delivery_time": "40-50 mins",
+    "location": "Chromepet (~2.5 km)",
+    "rating": 4.3,
+    "offers": null
+  },
+  {
+    "id": "6",
+    "name": "Shri Balaajee Bhavan",
+    "image": "https://example.com/sbb.jpg",
+    "cuisine": ["South Indian", "North Indian", "Oriental"],
+    "delivery_time": "30-40 mins",
+    "location": "Chromepet (~4.3 km)",
+    "rating": 4.3,
+    "offers": null
+  },
+  {
+    "id": "7",
+    "name": "ibaco",
+    "image": "https://example.com/ibaco.jpg",
+    "cuisine": ["Ice Cream"],
+    "delivery_time": "20-30 mins",
+    "location": "Selaiyur (~1.2 km)",
+    "rating": 4.3,
+    "offers": null
+  },
+  {
+    "id": "8",
+    "name": "Subway",
+    "image": "https://example.com/subway.jpg",
+    "cuisine": ["Healthy Food", "Sandwich", "Fast Food", "Wraps", "Salad", "Beverages"],
+    "delivery_time": "25-35 mins",
+    "location": "Chromepet (~4.2 km)",
+    "rating": 4.3,
+    "offers": null
+  },
+  {
+    "id": "9",
+    "name": "Gardenia Restaurant - Accord Chrome",
+    "image": "https://example.com/gardenia.jpg",
+    "cuisine": ["North Indian", "Seafood", "South Indian", "Salad", "Fast Food", "Beverages"],
+    "delivery_time": "35-45 mins",
+    "location": "Chromepet (~3.7 km)",
+    "rating": 4.2,
+    "offers": "Flat 15% OFF"
+  },
+  {
+    "id": "10",
+    "name": "Smoke Hub Barbeque",
+    "image": "https://example.com/shb.jpg",
+    "cuisine": ["Chinese", "South Indian", "North Indian", "Italian", "Street Food", "Desserts"],
+    "delivery_time": "40-50 mins",
+    "location": "Chromepet (~4.9 km)",
+    "rating": 3.5,
+    "offers": "Flat 30% OFF"
+  },
+  {
+    "id": "11",
+    "name": "Faruuzi Multicuisine Restaurant",
+    "image": "https://example.com/faruuzi.jpg",
+    "cuisine": ["North Indian", "Biryani", "Oriental"],
+    "delivery_time": "35-45 mins",
+    "location": "Chromepet (~4.2 km)",
+    "rating": 4.1,
+    "offers": "Flat 10% OFF"
+  },
+  {
+    "id": "12",
+    "name": "FB Cakes Tambaram",
+    "image": "https://example.com/fbcakes.jpg",
+    "cuisine": ["Bakery", "Desserts"],
+    "delivery_time": "25-35 mins",
+    "location": "Tambaram (~1.7 km)",
+    "rating": 3.8,
+    "offers": null
+  },
+  {
+    "id": "13",
+    "name": "Cafe Society",
+    "image": "https://example.com/cafesociety.jpg",
+    "cuisine": ["Cafe", "Fast Food", "Beverages", "Desserts", "Burger", "Rolls", "Sandwich", "Pizza"],
+    "delivery_time": "20-30 mins",
+    "location": "Tambaram (~0.2 km)",
+    "rating": 3.3,
+    "offers": "Flat 15% OFF"
+  },
+  {
+    "id": "14",
+    "name": "Madurai Meenakshi Bun Parotta",
+    "image": "https://example.com/original/madurai.jpg",
+    "cuisine": ["South Indian", "Chettinad", "Chinese"],
+    "delivery_time": "30–40 min",
+    "rating": 3.7,
+    "location": "Sholinganallur (near Medavakkam)",
+    "offers": "Flat 10% OFF"
+  },
+  {
+    "id": "15",
+    "name": "Fazari",
+    "image": "https://example.com/fazari.jpg",
+    "cuisine": ["Chinese", "Indian"],
+    "delivery_time": "30-40 mins",
+    "location": "Tambaram",
+    "rating": 4.3,
+    "offers": "25% OFF"
+  }
+]
