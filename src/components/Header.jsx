@@ -1,16 +1,26 @@
+import { Link } from "react-router-dom";
+import { HEADER_LOGO } from "../utlis/constants";
+
 const Header = () => {
-  const headerItems = ["Home", "About", "Contact", "Cart"];
+  const headerItems = [
+    { path: "/", label: "Home" },
+    { path: "/about", label: "About" },
+    { path: "/contact", label: "Contact" },
+    { path: "/cart", label: "Cart" },
+  ];
 
   return (
-    <div className="border border-white shadow-amber-200 shadow-md flex justify-between">
+    <div className="border border-white shadow-gray-300 shadow-md flex justify-between">
       <img
-        src="https://images-platform.99static.com/CiMFXt_8HNFWxH1qqjgOlOeLbwA=/144x84:1008x948/500x500/top/smart/99designs-contests-attachments/117/117148/attachment_117148140"
+        src={HEADER_LOGO}
         alt="HEADER LOGO"
-        className="shadow-amber-100 shadow-xl max-w-4/5 h-24 cursor-pointer"
+        className="max-w-4/5 h-24 cursor-pointer"
       />
-      <ul className="shadow-amber-100 shadow-xl w-2/6 flex items-center justify-around">
+      <ul className="w-2/6 flex items-center justify-around">
         {headerItems.map((item, index) => (
-          <li key={index} className="cursor-pointer font-sans">{item}</li>
+          <li key={index} className="cursor-pointer text-sm text-gray-500 font-extrabold">
+            <Link to={item.path}>{item.label}</Link>
+          </li>
         ))}
       </ul>
     </div>
