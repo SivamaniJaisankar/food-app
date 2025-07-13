@@ -45,8 +45,8 @@ const Cart = () => {
           {cartItem.map((item, index) => (
             
             <div key={index} className="">
-            {item.count != '0' &&  (<ul className="text-sm w-12/12 border-b border-gray-300 flex justify-between items-center font-extralight">
-            <li className="w-7/12 my-1">{item.dishName}</li>
+            {item.count != '0' &&  (<ul className="w-12/12 text-sm border-b border-gray-300 flex justify-between items-center font-extralight">
+            <li className="w-6/12 my-1">{item.dishName}</li>
             <li className="w-3/12 my-1 px-2 md:px-4 py-1 md:py-2 rounded-md outline-0 border border-gray-400 text-md text-green-500 font-extrabold flex justify-around">
               <button 
                 className="cursor-pointer"
@@ -58,7 +58,7 @@ const Cart = () => {
                 onClick={()=>addItem(item.dishName, item.price)}
               > + </button>
             </li>
-            <li className="w-1/12 my-1">₹{item.price}</li>
+            <li className="w-2/12 my-1">₹{item.price}</li>
             </ul>
             )}
             </div>
