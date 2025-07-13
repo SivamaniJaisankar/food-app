@@ -25,7 +25,7 @@ const RestaurantCardFilter = (props) => {
 
     if (selectedValue === "Relevance (Default)" && searchInput === "") {
       setFilteredResList(resList);
-    } else if (selectedValue === "Relevance (Default)" && searchInput != "") {
+    } else if (selectedValue === "Relevance (Default)" && searchInput !== "") {
       setFilteredResList(filteredResList);
     } else if (selectedValue === "Delivery Time") {
       const filteredList = [...filteredResList].sort(
@@ -42,20 +42,20 @@ const RestaurantCardFilter = (props) => {
 
   return (
     <>
-      <div className="m-5 flex justify-between w-11/12">
+      <div className="m-5 flex flex-col md:flex-row justify-between w-11/12">
         <input
           type="text"
           placeholder="Search for restaurants"
           value={searchInput}
           onChange={handleSearch}
-          className="mx-2 p-1 w-3/12 rounded-sm outline-0 border border-gray-400 text-md text-gray-500 font-extrabold"
+          className="mx-2 p-1 w-10/12 md:w-3/12 rounded-sm outline-0 border border-gray-400 text-md text-gray-500 font-extrabold"
         />
-        <div>
-          <label className="ml-10 px-2 text-sm text-gray-500 font-extrabold">
+        <div className="my-1 md:my-0 md:w-6/12 md:text-right">
+          <label className="invisible md:visible ml-2 md:ml-10 px-2 text-sm text-gray-500 font-extrabold">
             Sort By
           </label>
           <select
-            className="mx-2 p-1 rounded-md outline-0 border border-gray-400 text-sm text-gray-500 font-extrabold cursor-pointer"
+            className="w-10/12 md:w-6/12 mx-2 p-2 rounded-md outline-0 border border-gray-400 text-sm text-gray-500 font-extrabold cursor-pointer"
             value={filterValue}
             onChange={handleFilter}
           >

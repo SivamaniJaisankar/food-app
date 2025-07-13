@@ -12,12 +12,12 @@
         "items": [
           {
             "dish_name": "Bakery Special Bread",
-            "price": "₹120",
+            "price": "120",
             "description": "Freshly baked bread with a crispy crust."
           },
           {
             "dish_name": "Pizza Margherita",
-            "price": "₹250",
+            "price": "250",
             "description": "Classic Italian pizza with tomato, mozzarella, and basil."
           }
         ]
@@ -27,12 +27,12 @@
         "items": [
           {
             "dish_name": "Croissants",
-            "price": "₹80",
+            "price": "80",
             "description": "Buttery and flaky croissants."
           },
           {
             "dish_name": "Egg Muffins",
-            "price": "₹150",
+            "price": "150",
             "description": "Scrambled eggs with cheese and veggies."
           }
         ]
@@ -42,12 +42,12 @@
         "items": [
           {
             "dish_name": "Chocolate Fudge Cake",
-            "price": "₹180",
+            "price": "180",
             "description": "Rich chocolate cake layered with fudge."
           },
           {
             "dish_name": "Cupcakes",
-            "price": "₹60",
+            "price": "60",
             "description": "Assorted flavors of fluffy cupcakes."
           }
         ]
@@ -67,12 +67,12 @@
         "items": [
           {
             "dish_name": "Andhra Chicken Biryani",
-            "price": "₹300",
+            "price": "300",
             "description": "Spicy biryani with tender chicken pieces."
           },
           {
             "dish_name": "Gongura Mutton",
-            "price": "₹380",
+            "price": "380",
             "description": "Mutton cooked in tangy gongura leaves."
           }
         ]
@@ -82,12 +82,12 @@
         "items": [
           {
             "dish_name": "Masala Dosa",
-            "price": "₹150",
+            "price": "150",
             "description": "Crispy dosa filled with spicy potato filling."
           },
           {
             "dish_name": "Hyderabadi Veg Curry",
-            "price": "₹200",
+            "price": "200",
             "description": "Mixed vegetables in a rich coconut gravy."
           }
         ]
@@ -97,12 +97,12 @@
         "items": [
           {
             "dish_name": "Chilli Chicken",
-            "price": "₹250",
+            "price": "250",
             "description": "Spicy and tangy chicken stir-fried with bell peppers."
           },
           {
             "dish_name": "Hakka Noodles",
-            "price": "₹180",
+            "price": "180",
             "description": "Stir-fried noodles with vegetables in a savory sauce."
           }
         ]
@@ -112,12 +112,12 @@
         "items": [
           {
             "dish_name": "Mango Lassi",
-            "price": "₹100",
+            "price": "100",
             "description": "Refreshing yogurt-based drink with mango pulp."
           },
           {
             "dish_name": "Cold Coffee",
-            "price": "₹120",
+            "price": "120",
             "description": "Chilled coffee with milk and ice."
           }
         ]
@@ -137,12 +137,12 @@
         "items": [
           {
             "dish_name": "Chicken Mandi",
-            "price": "₹350",
+            "price": "350",
             "description": "Tender chicken cooked with aromatic rice."
           },
           {
             "dish_name": "Hummus Platter",
-            "price": "₹180",
+            "price": "180",
             "description": "Creamy chickpea dip served with pita bread."
           }
         ]
@@ -152,12 +152,12 @@
         "items": [
           {
             "dish_name": "Prawn Biryani",
-            "price": "₹400",
+            "price": "400",
             "description": "Flavorful rice cooked with succulent prawns."
           },
           {
             "dish_name": "Mutton Dum Biryani",
-            "price": "₹380",
+            "price": "380",
             "description": "Traditional slow-cooked mutton biryani."
           }
         ]
@@ -165,29 +165,104 @@
     ]
   },
   {
-    "id": "4",
-    "name": "Dindigul Thalappakatti",
-    "rating": 4.1,
-    "delivery_time": "30-40 mins",
-    "location": "Medavakkam",
-    "offers": "Flat 10% off walk-in",
-    "categories": [
-      {
-        "title": "Signature Dishes",
-        "items": [
-          {
-            "dish_name": "Chicken Thalappakatti Biryani",
-            "price": "₹320",
-            "description": "Famous biryani with aromatic spices."
-          },
-          {
-            "dish_name": "Thalappakatti Special Mutton Gravy",
-            "price": "₹380",
-            "description": "Spicy mutton curry with a unique blend of spices."
-          }
-        ]
-      }
-    ]
+  "id": "4",
+  "name": "Dindigul Thalappakatti",
+  "rating": 4.1,
+  "delivery_time": "30-40 mins",
+  "location": "Medavakkam",
+  "offers": "Flat 10% off walk-in",
+  "categories": [
+    {
+      "title": "Signature Dishes",
+      "items": [
+        {
+          "dish_name": "Chicken Thalappakatti Biryani",
+          "price": "320",
+          "description": "Famous biryani with aromatic spices."
+        },
+        {
+          "dish_name": "Thalappakatti Special Mutton Gravy",
+          "price": "380",
+          "description": "Spicy mutton curry with a unique blend of spices."
+        }
+      ]
+    },
+    {
+      "title": "Starters",
+      "items": [
+        {
+          "dish_name": "Chicken 65",
+          "price": "220",
+          "description": "Crispy deep-fried chicken chunks tossed in spicy masala."
+        },
+        {
+          "dish_name": "Mutton Kola Urundai",
+          "price": "240",
+          "description": "Fried meatballs made with minced mutton and traditional spices."
+        }
+      ]
+    },
+    {
+      "title": "Vegetarian Specials",
+      "items": [
+        {
+          "dish_name": "Paneer Butter Masala",
+          "price": "200",
+          "description": "Cottage cheese in rich tomato-butter gravy."
+        },
+        {
+          "dish_name": "Veg Biryani",
+          "price": "180",
+          "description": "Fragrant rice cooked with mixed vegetables and spices."
+        }
+      ]
+    },
+    {
+      "title": "Indian Breads",
+      "items": [
+        {
+          "dish_name": "Butter Naan",
+          "price": "40",
+          "description": "Soft tandoor-cooked flatbread with a butter glaze."
+        },
+        {
+          "dish_name": "Parotta",
+          "price": "35",
+          "description": "Layered flaky flatbread, popular in Tamil Nadu."
+        }
+      ]
+    },
+    {
+      "title": "Beverages",
+      "items": [
+        {
+          "dish_name": "Lemon Mint Cooler",
+          "price": "60",
+          "description": "Refreshing lemon drink with mint and soda."
+        },
+        {
+          "dish_name": "Buttermilk",
+          "price": "30",
+          "description": "Traditional South Indian spiced yogurt drink."
+        }
+      ]
+    },
+    {
+      "title": "Desserts",
+      "items": [
+        {
+          "dish_name": "Gulab Jamun",
+          "price": "70",
+          "description": "Soft deep-fried dough balls soaked in sugar syrup."
+        },
+        {
+          "dish_name": "Elaneer Payasam",
+          "price": "90",
+          "description": "Tender coconut kheer – a chilled South Indian dessert."
+        }
+      ]
+    }
+  ]
   },
   {
     "id": "5",
@@ -202,12 +277,12 @@
         "items": [
           {
             "dish_name": "Barbecue Chicken Wings",
-            "price": "₹280",
+            "price": "280",
             "description": "Smoky chicken wings glazed with barbecue sauce."
           },
           {
             "dish_name": "Grilled Pineapple",
-            "price": "₹150",
+            "price": "150",
             "description": "Juicy pineapple slices grilled to perfection."
           }
         ]
@@ -227,12 +302,12 @@
         "items": [
           {
             "dish_name": "Masala Dosai",
-            "price": "₹180",
+            "price": "180",
             "description": "Crispy dosa filled with spiced potato filling."
           },
           {
             "dish_name": "Rava Idli",
-            "price": "₹120",
+            "price": "120",
             "description": "Soft and fluffy idlis made from semolina."
           }
         ]
@@ -242,12 +317,12 @@
         "items": [
           {
             "dish_name": "Paneer Butter Masala",
-            "price": "₹250",
+            "price": "250",
             "description": "Cottage cheese cubes in a rich tomato and butter sauce."
           },
           {
             "dish_name": "Butter Naan",
-            "price": "₹80",
+            "price": "80",
             "description": "Traditional Indian bread baked in a tandoor."
           }
         ]
@@ -267,12 +342,12 @@
         "items": [
           {
             "dish_name": "Belgian Chocolate Ice Cream",
-            "price": "₹150",
+            "price": "150",
             "description": "Rich chocolate ice cream made from Belgian cocoa."
           },
           {
             "dish_name": "Strawberry Sorbet",
-            "price": "₹130",
+            "price": "130",
             "description": "Refreshing sorbet made with fresh strawberries."
           }
         ]
@@ -292,12 +367,12 @@
         "items": [
           {
             "dish_name": "Veggie Delight Sub",
-            "price": "₹200",
+            "price": "200",
             "description": "Fresh vegetables on whole wheat bread."
           },
           {
             "dish_name": "Chicken Teriyaki Wrap",
-            "price": "₹250",
+            "price": "250",
             "description": "Grilled chicken wrapped in a soft tortilla."
           }
         ]
@@ -307,12 +382,12 @@
         "items": [
           {
             "dish_name": "Classic Italian Salad",
-            "price": "₹180",
+            "price": "180",
             "description": "Mixed greens with olives, tomatoes, and Italian dressing."
           },
           {
             "dish_name": "Caesar Salad",
-            "price": "₹200",
+            "price": "200",
             "description": "Romaine lettuce with croutons, Parmesan cheese, and Caesar dressing."
           }
         ]
@@ -332,12 +407,12 @@
         "items": [
           {
             "dish_name": "Fish Curry",
-            "price": "₹350",
+            "price": "350",
             "description": "Spicy fish curry served with steamed rice."
           },
           {
             "dish_name": "Prawn Fry",
-            "price": "₹380",
+            "price": "380",
             "description": "Crispy fried prawns tossed in aromatic spices."
           }
         ]
@@ -347,12 +422,12 @@
         "items": [
           {
             "dish_name": "French Fries",
-            "price": "₹120",
+            "price": "120",
             "description": "Crispy and golden fried potatoes."
           },
           {
             "dish_name": "Chicken Nuggets",
-            "price": "₹180",
+            "price": "180",
             "description": "Breaded and fried chicken pieces."
           }
         ]
@@ -372,12 +447,12 @@
         "items": [
           {
             "dish_name": "Paneer Tikka",
-            "price": "₹180",
+            "price": "180",
             "description": "Grilled paneer marinated in yogurt and spices."
           },
           {
             "dish_name": "Chicken Kebab Platter",
-            "price": "₹400",
+            "price": "400",
             "description": "Assorted chicken kebabs served with mint chutney."
           }
         ]
@@ -387,12 +462,12 @@
         "items": [
           {
             "dish_name": "Pasta Arrabbiata",
-            "price": "₹250",
+            "price": "250",
             "description": "Pasta tossed in spicy tomato sauce."
           },
           {
             "dish_name": "Margherita Pizza",
-            "price": "₹300",
+            "price": "300",
             "description": "Classic pizza with tomato, mozzarella, and basil."
           }
         ]
@@ -412,12 +487,12 @@
         "items": [
           {
             "dish_name": "Murgh Biryani",
-            "price": "₹320",
+            "price": "320",
             "description": "Fragrant biryani with succulent chicken pieces."
           },
           {
             "dish_name": "Paneer Butter Masala",
-            "price": "₹250",
+            "price": "250",
             "description": "Cottage cheese cubes in a rich tomato and butter sauce."
           }
         ]
@@ -427,12 +502,12 @@
         "items": [
           {
             "dish_name": "Schezwan Noodles",
-            "price": "₹180",
+            "price": "180",
             "description": "Spicy noodles with mixed vegetables."
           },
           {
             "dish_name": "Thai Green Curry",
-            "price": "₹300",
+            "price": "300",
             "description": "Thai style curry with green vegetables and coconut milk."
           }
         ]
@@ -452,12 +527,12 @@
         "items": [
           {
             "dish_name": "Black Forest Cake",
-            "price": "₹300",
+            "price": "300",
             "description": "Layers of chocolate sponge with cherries and whipped cream."
           },
           {
             "dish_name": "Apple Pie",
-            "price": "₹180",
+            "price": "180",
             "description": "Classic apple pie with a flaky crust."
           }
         ]
@@ -467,12 +542,12 @@
         "items": [
           {
             "dish_name": "Chocolate Truffle",
-            "price": "₹200",
+            "price": "200",
             "description": "Decadent chocolate dessert with ganache."
           },
           {
             "dish_name": "Red Velvet Cupcake",
-            "price": "₹150",
+            "price": "150",
             "description": "Moist red velvet cake topped with cream cheese frosting."
           }
         ]
@@ -492,12 +567,12 @@
         "items": [
           {
             "dish_name": "Espresso",
-            "price": "₹100",
+            "price": "100",
             "description": "Strong black coffee."
           },
           {
             "dish_name": "Cheese Sandwich",
-            "price": "₹150",
+            "price": "150",
             "description": "Grilled sandwich with melted cheese."
           }
         ]
@@ -507,12 +582,12 @@
         "items": [
           {
             "dish_name": "Chicken Burger",
-            "price": "₹180",
+            "price": "180",
             "description": "Juicy chicken patty with lettuce and mayo."
           },
           {
             "dish_name": "Paneer Kathi Roll",
-            "price": "₹160",
+            "price": "160",
             "description": "Spicy paneer wrapped in a soft roll."
           }
         ]
@@ -532,12 +607,12 @@
         "items": [
           {
             "dish_name": "Bun Parotta with Salna",
-            "price": "₹180",
+            "price": "180",
             "description": "Flaky parotta served with spicy salna."
           },
           {
             "dish_name": "Chettinad Chicken",
-            "price": "₹300",
+            "price": "300",
             "description": "Spicy chicken curry from the Chettinad region."
           }
         ]
@@ -547,12 +622,12 @@
         "items": [
           {
             "dish_name": "Mutton Chukka",
-            "price": "₹350",
+            "price": "350",
             "description": "Dry mutton dish with aromatic spices."
           },
           {
             "dish_name": "Fish Fry",
-            "price": "₹280",
+            "price": "280",
             "description": "Crispy fried fish marinated in traditional spices."
           }
         ]
@@ -572,12 +647,12 @@
         "items": [
           {
             "dish_name": "Chilli Chicken",
-            "price": "₹250",
+            "price": "250",
             "description": "Spicy and tangy chicken stir-fried with bell peppers."
           },
           {
             "dish_name": "Hakka Noodles",
-            "price": "₹180",
+            "price": "180",
             "description": "Stir-fried noodles with vegetables in a savory sauce."
           }
         ]
@@ -587,12 +662,12 @@
         "items": [
           {
             "dish_name": "Butter Chicken",
-            "price": "₹300",
+            "price": "300",
             "description": "Chicken cooked in a rich buttery tomato sauce."
           },
           {
             "dish_name": "Paneer Tikka Masala",
-            "price": "₹280",
+            "price": "280",
             "description": "Grilled paneer cubes in a spicy tomato-based gravy."
           }
         ]

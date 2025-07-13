@@ -5,13 +5,13 @@ import RestaurantCardFilter from "./RestaurantCardFilter";
 import RestaurantCard, { WithOfferLabel } from "./RestaurantCard";
 import RestaurantCardShimmer from "./RestaurantCardShimmer";
 
+const RestaurantCardWithLabel = WithOfferLabel(RestaurantCard);
+
 const Body = () => {
   const [resList, setResList] = useState([]);
   const [filteredResList, setFilteredResList] = useState([]);
 
   const restaurantCardInfo = useRestaurantCard();
-
-  const RestaurantCardWithLabel = WithOfferLabel(RestaurantCard)
 
   useEffect(() => {
     if (restaurantCardInfo && restaurantCardInfo.length > 0) {
@@ -20,11 +20,7 @@ const Body = () => {
     }
   }, [restaurantCardInfo]);
 
-  if (!restaurantCardInfo || restaurantCardInfo.length === 0)
-    return <RestaurantCardShimmer />;
-
-  console.log(filteredResList);
-  
+  if (!restaurantCardInfo || restaurantCardInfo.length === 0) return <RestaurantCardShimmer />;
 
   return (
     <>
@@ -34,11 +30,22 @@ const Body = () => {
         setFilteredResList={setFilteredResList}
       />
 
-      <div className="flex flex-wrap gap-4 p-5">
-        {filteredResList?.map((res) => (  
-          <Link to={"/res/" + res.id} key={res.id}>{res.offers ? (<RestaurantCardWithLabel res={res}/>): (<RestaurantCard res={res} />)  }</Link>
-        ))}
-      </div>
+      {filteredResList.length === 0 ? (
+        <div className="text-center text-gray-500 text-sm">No restaurants match your filter.</div>
+      ) : (
+        <div className="flex flex-col md:flex-row items-center w-11/12 md:w-12/12 mx-auto flex-wrap gap-4 p-5">
+          {filteredResList?.map((res) => {
+            const CardComponent = res.offers
+              ? RestaurantCardWithLabel
+              : RestaurantCard;
+            return (
+              <Link to={"/res/" + res.id} key={res.id}>
+                <CardComponent res={res} />
+              </Link>
+            );
+          })}
+        </div>
+      )}
     </>
   );
 };
